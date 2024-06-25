@@ -4,12 +4,8 @@ def my_function(numbers):
     new_list = []
     for i in numbers:
         # The magic happens here
-        if i == 1:
-            new_list.append(1) 
-        elif i == 0:
-            new_list.append("Yahoo")
         
-        return new_list
+        
+    return new_list
     
 print(my_function(my_list))
-
